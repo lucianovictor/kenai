@@ -1,0 +1,48 @@
+.container {
+  // background: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    display: flex;
+    position: absolute;
+    width: 99px;
+    height: 66px;
+    left: 48px;
+    top: 40px;
+
+    font-family: 'Mukta';
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 4.125rem;
+    color: var(--gradient);
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    column-gap: 8rem;
+    margin: 0 auto;
+    list-style: none;
+    left: 1271px;
+    top: 61px;
+    position: absolute;
+
+
+    svg {
+      width: 30px;
+      height: 36px;
+    }
+
+    li {
+      display: flex;
+      position: relative;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.25rem;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+  }
+}
