@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 0;
+
+  h2 {
+    display: flex;
+    position: absolute;
+    width: 99px;
+    height: 66px;
+    left: 48px;
+    top: 1299px;
+
+    font-family: 'Mukta';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4.125rem;
+    color: var(--white);
+  }
+
+  ul {
+    display:flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 2000px;
+    top: 1320px;
+    gap: 69px;
+    column-gap: 2rem;
+    list-style: none;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
