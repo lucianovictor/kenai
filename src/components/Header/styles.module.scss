@@ -16,7 +16,11 @@
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 4.125rem;
-    color: var(--gradient);
+    // color: var(--gradient);
+    background: linear-gradient(264.26deg, #FF267A 0%, #FFA634 101.03%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   ul {
